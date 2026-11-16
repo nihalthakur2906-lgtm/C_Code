@@ -1,10 +1,12 @@
 #include <stdio.h>
-int main(){
+int main()
+{
     int a;
     printf("Enter the number:");
-    scanf("%d",&a);
-    if(a<0){
-        a=-a;
+    scanf("%d", &a);
+    if (a < 0)
+    {
+        a = -a;
     }
-    printf("The absolute value of given number is:%d ",a);
+    printf("The absolute value of given number is:%d ", a);
 }

@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     float principal, rate, time, simple_interest;
 
     printf("Enter principal amount: ");

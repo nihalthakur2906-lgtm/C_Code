@@ -2,7 +2,8 @@
 
 #define PI 3.14159
 
-int main() {
+int main()
+{
     double radius, volume;
 
     printf("Enter the radius of the sphere: ");
